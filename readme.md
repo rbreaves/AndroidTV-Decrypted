@@ -1,7 +1,6 @@
 # Android TV Decrypted
 
-Purpose of this repo is provide a template for setup scripts that users can use on rooted Android TV devices that are v10 & newer. Currently this work is purely based on work that is verified to be working on Onn 4k & Dynalink type of devices running Android TV 10. The purpose.
-
+Purpose of this repo is provide a template for setup scripts that users can use on rooted Android TV devices that are v10 & newer. Currently this work is purely based on work that is verified to be working on Onn 4k & Dynalink type of devices running Android TV 10.
 ## Description
 
 The scripts contained in this project are meant to be transferred to a microsd card and ran over adb via sh or bash. Their install will allow for certain directories to be mounted from the fat32 microsd internally similar to adoptable storage, although it is not currently designed to fully integrate or replace the /data directory which contains local app on the internal storage. Currently unknown if attempts will be made later on to support adoptable storage type functionality on fat32 microsd cards.
@@ -107,7 +106,7 @@ Ben Reaves
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE file for details
 
 ## References
 
